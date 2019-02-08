@@ -1,0 +1,46 @@
+body{
+    background: #555;
+    color: #fff;
+}
+form{
+    display: grid;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+input{
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+.yes, .no{
+    margin: auto;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-bottom: 20px;
+}
+.library{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
